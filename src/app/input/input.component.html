@@ -1,0 +1,9 @@
+<div class="input-container">
+    <label for="input" class="input-label">{{ label }}</label>
+    <input 
+        [type]="type"
+        [(ngModel)]="value" 
+        (ngModelChange)="updateChanges()"
+        class="input-value" 
+    />
+</div>
