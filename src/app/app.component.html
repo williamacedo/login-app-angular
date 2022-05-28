@@ -1,4 +1,5 @@
 <div>
   <app-input label="E-mail" [(ngModel)]="email"></app-input>
   <app-input label="Password" [(ngModel)]="password" type="password"></app-input>
+  <app-button label="Entrar" (buttonAction)="validateLogin()"></app-button>
 </div>

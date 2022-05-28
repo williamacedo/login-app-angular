@@ -9,4 +9,8 @@ export class AppComponent {
   title = 'login-app-angular';
   email = '';
   password = '';
+
+  validateLogin() {
+    console.log('works')
+  }
 }
