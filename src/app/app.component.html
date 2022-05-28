@@ -1,5 +1,11 @@
 <div>
-  <app-input label="E-mail" [(ngModel)]="email"></app-input>
-  <app-input label="Password" [(ngModel)]="password" type="password"></app-input>
-  <app-button label="Entrar" (buttonAction)="validateLogin()"></app-button>
+  <div class="signin">
+    <div class="signin-content">
+        <h1>Login</h1>
+        <div *ngIf="!isValidLogin" class="signin-content__error">Email e senha invalidos</div>
+        <app-input label="E-mail" [(ngModel)]="email"></app-input>
+        <app-input label="Password" [(ngModel)]="password" type="password"></app-input>
+        <app-button label="Entrar" (buttonAction)="validateLogin()"></app-button>
+    </div>
+  </div>
 </div>

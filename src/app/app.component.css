@@ -1,0 +1,27 @@
+.signin {
+    background-color: #ccc;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .signin h1 {
+    font-size: 50px;
+    font-weight: 700;
+  }
+  .signin-content {
+    width: 500px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 10px;
+  }
+  .signin-content__error {
+    color: red;
+    font-size: 14px;
+    font-weight: 700;
+  }
